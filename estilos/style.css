@@ -6,3 +6,54 @@
     Lilás: #5f2c82
 
 */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+htmlm, body{
+    background-color: #5f2c82;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+
+
+section#login{
+    
+    border-radius: 20px;
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.432);
+   
+}
+section#login > div#imagem{
+    display: block;
+    background-color: #5f2c82;
+    background-image: url(../imagens/pexels-dapo-abideen-1908900-5677459.jpg);
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+section#login > div#form{
+    display: block;
+}
